@@ -1,0 +1,8 @@
+@charset "utf-8";
+html,body { height: 100%; width: 100%; }
+body { width:auto; position: relative; padding:10px 50px 50px 10px; }
+
+.chart { position: absolute; text-align: center; }
+.chart thead tr th,
+.chart tbody tr td { padding: 0 0 20px; }
+.chart tbody tr td img{ width: 60px; height: 60px; margin: 0 20px 0 20px; }

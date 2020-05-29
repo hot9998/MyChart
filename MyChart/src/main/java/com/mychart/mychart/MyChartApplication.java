@@ -1,0 +1,13 @@
+package com.mychart.mychart;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MyChartApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MyChartApplication.class, args);
+	}
+
+}
