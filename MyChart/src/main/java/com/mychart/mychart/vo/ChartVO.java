@@ -8,4 +8,5 @@ public class ChartVO {
 	private String title;
 	private String artist;
 	private String src;
+	private String url;
 }

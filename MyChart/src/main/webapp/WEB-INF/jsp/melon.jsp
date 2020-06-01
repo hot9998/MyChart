@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Melon</title>
 <link rel="stylesheet" href="/resources/css/style.css">
 </head>
 <body>
