@@ -5,13 +5,24 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Bugs</title>
+<link rel="stylesheet" href="/resources/css/style.css">
 </head>
 <body>
-	<table>
+<%@include file="/WEB-INF/jsp/includes/header.jsp" %>
+	<table class="chart">
+		<thead>
+			<tr>
+				<th>-</th>
+				<th>순위</th>
+				<th>제목</th>
+				<th>아티스트명</th>
+			</tr>
+		</thead>
 		<tbody>
 		<c:forEach items="${chartList }" var="chartList">
 			<tr>
+				<td><img alt="${chartList.title }" src="${chartList.src }"></td>
 				<td>${chartList.rank }</td>
 				<td>${chartList.title }</td>
 				<td>${chartList.artist }</td>

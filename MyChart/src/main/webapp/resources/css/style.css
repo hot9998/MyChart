@@ -2,7 +2,8 @@
 html,body { height: 100%; width: 100%; }
 body { width:auto; position: relative; padding:10px 50px 50px 10px; }
 
-.chart { position: absolute; text-align: center; }
+.chart { position:absolute; left:50%; transform: translateX(-50%); margin: 30px 0 0; text-align: center; }
 .chart thead tr th,
 .chart tbody tr td { padding: 0 0 20px; }
+.chart thead tr th:nth-child(2) { width: 50px }
 .chart tbody tr td img{ width: 60px; height: 60px; margin: 0 20px 0 20px; }

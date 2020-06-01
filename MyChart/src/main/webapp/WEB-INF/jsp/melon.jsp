@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="/resources/css/style.css">
 </head>
 <body>
+<%@include file="/WEB-INF/jsp/includes/header.jsp" %>
 	<table class="chart">
 		<thead>
 			<tr>
