@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Bugs</title>
+<title>MyChart</title>
 <link rel="stylesheet" href="/resources/css/style.css">
 </head>
 <body>
@@ -27,7 +27,7 @@
 				<td>${chartList.title }</td>
 				<td>${chartList.artist }</td>
 			</tr>
-		</c:forEach>
+		</c:forEach>	
 		</tbody>
 	</table>
 </body>

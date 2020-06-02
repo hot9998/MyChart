@@ -12,6 +12,5 @@
 		<a href="/bugs">Bugs</a>
 		<a href="/genie">genie</a>
 	</nav>
-
 </body>
 </html>

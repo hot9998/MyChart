@@ -42,7 +42,7 @@ public class ChartController {
 		}
 
 		model.addAttribute("chartList", chartList);
-		return "melon";
+		return "myChart";
 	}
 
 	@GetMapping("/bugs")
@@ -71,7 +71,7 @@ public class ChartController {
 		}
 
 		model.addAttribute("chartList", chartList);
-		return "bugs";
+		return "myChart";
 	}
 
 	@GetMapping("/genie")
@@ -110,7 +110,7 @@ public class ChartController {
 		}
 
 		model.addAttribute("chartList", chartList);
-		return "genie";
+		return "myChart";
 	}
 
 }
